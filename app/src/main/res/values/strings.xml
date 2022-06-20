@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">QR code scanner</string>
+    <string name="history">History</string>
+    <string name="exit">Exit</string>
+    <string name="scanner">Scanner</string>
+    <string name="test_link">http://site.com/?query=23294239487</string>
+    <string name="go">Go</string>
+    <string name="cancel">Cancel</string>
+    <string name="fail_recognize_scan_code">Failed to recognize the scan code.</string>
+    <string name="failed_getting_photo">Couldn\'t get a photo!</string>
+    <string name="press_to_scanning">Tap to scanning</string>
+    <string name="delete_all_notes">Delete all notes</string>
+    <string name="delete_all">Delete All</string>
+</resources>

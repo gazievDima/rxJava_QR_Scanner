@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scannerContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pre_black"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/size_corners_template_camera"
+            android:layout_height="@dimen/size_corners_template_camera"
+            android:layout_gravity="center"
+            android:src="@drawable/qr"
+            app:tint="?colorPrimary" />
+
+        <ImageButton
+            android:id="@+id/btnScan"
+            android:layout_width="@dimen/size_qr_icon"
+            android:layout_height="@dimen/size_qr_icon"
+            android:layout_gravity="center"
+            android:background="@color/alpha_0"
+            android:padding="@dimen/padding_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_baseline_qr_code_scanner_24"
+            app:tint="?colorPrimary" />
+    </FrameLayout>
+
+
+    <TextView
+        style="@style/TextButtonDialogFragment"
+        android:text="@string/press_to_scanning"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

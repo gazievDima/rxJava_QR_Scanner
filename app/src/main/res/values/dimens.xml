@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_logo_start_screen">200dp</dimen>
+    <dimen name="size_qr_icon">110dp</dimen>
+    <dimen name="size_corners_template_camera">220dp</dimen>
+    <dimen name="padding_content">15dp</dimen>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pre_black"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="@dimen/size_logo_start_screen"
+            android:layout_height="@dimen/size_logo_start_screen"
+            android:src="@drawable/logo"/>
+
+    <Button
+        android:layout_marginTop="120dp"
+        android:id="@+id/btnScanner"
+        android:text="@string/scanner"
+        android:layout_width="160dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:text="@string/history"
+        android:layout_width="160dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:text="@string/exit"
+        android:layout_width="160dp"
+        android:layout_height="50dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

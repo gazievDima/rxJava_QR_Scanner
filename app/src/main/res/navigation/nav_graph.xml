@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.gaziev.qr_code_scanner.presentation.screens.start.StartFragment"
+        android:label="QR Code Scanner" >
+        <action
+            android:id="@+id/action_startFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_scannerFragment2"
+            app:destination="@id/scannerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.gaziev.qr_code_scanner.presentation.screens.history.HistoryFragment"
+        android:label="History" >
+        <action
+            android:id="@+id/action_historyFragment_to_contentDialogFragment"
+            app:destination="@id/contentDialogFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scannerFragment"
+        android:name="com.gaziev.qr_code_scanner.presentation.screens.scanner.ScannerFragment"
+        android:label="Scanner" >
+        <action
+            android:id="@+id/action_scannerFragment_to_contentDialogFragment"
+            app:destination="@id/contentDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/contentDialogFragment"
+        android:name="com.gaziev.qr_code_scanner.presentation.screens.dialog.ContentDialogFragment"
+        android:label="ContentDialogFragment" />
+</navigation>
