@@ -18,8 +18,8 @@
 
 <img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_1.jpg" width="220" height="470">
 
-<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_2.jpg">
+<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_2.jpg" width="220" height="470">
 
-<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_3.jpg">
+<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_3.jpg" width="220" height="470">
 
-<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_4.jpg">
+<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_4.jpg" width="220" height="470">
