@@ -16,7 +16,7 @@
 
 ## Presentation Screens
 
-<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_1.jpg" width="250" height="500">
+<img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_1.jpg" width="220" height="500">
 
 <img src="https://github.com/gazievDima/rxJava_QR_Scanner/blob/main/img_2.jpg">
 
